@@ -1,2 +1,4 @@
-orders-service-prod.params.x = 00
-orders-service-prod.params.y = 00
+orders-service-prod:
+  params:
+    x: 00
+    y: 00

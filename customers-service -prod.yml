@@ -1,3 +1,6 @@
-customers-service-prod.params.x =40
-customers-service-prod.params.y = 40
+customers-service-prod:
+  params:
+    x: 40
+    y: 40
+
 
