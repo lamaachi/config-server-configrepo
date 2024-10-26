@@ -1,2 +1,4 @@
-global.params.x = 12
-global.params.y = 12
+global:
+  params:
+    p1: 1000
+    p2: 2000
