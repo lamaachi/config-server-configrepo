@@ -1,2 +1,4 @@
-products-service-prod.params.x = 88
-products-service-prod.params.y = 88
+products-service-prod:
+  params:
+    x: 88
+    y: 88

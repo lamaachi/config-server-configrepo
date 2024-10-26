@@ -1,2 +1,4 @@
-products-service-dev.params.x = 10
-products-service-dev.params.y = 10
+products-service-dev:
+  params:
+    x: 90
+    y: 90
