@@ -1,0 +1,22 @@
+customers-service-dev:
+  params:
+    x: 31
+    y: 31
+
+spring:
+  application:
+    name: customers-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customer
+    username: postgres
+    password: lamaachi
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+server:
+  port: 8081

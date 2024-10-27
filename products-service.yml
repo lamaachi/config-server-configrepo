@@ -1,0 +1,24 @@
+products-service-dev:
+  params:
+    x: 901
+    y: 901
+
+spring:
+  application:
+    name: products-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/product
+    username: postgres
+    password: lamaachi
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+server:
+  port: 8082
