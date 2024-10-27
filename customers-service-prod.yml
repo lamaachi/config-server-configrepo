@@ -1,18 +1,15 @@
-orders-service-prod:
+customers-service-prod:
   params:
-    x: 00
-    y: 00
-
+    x: 40
+    y: 40
 
 spring:
   application:
-    name: orders-service
-
+    name: customers-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/order
+    url: jdbc:postgresql://localhost:5432/customer
     username: postgres
     password: lamaachi
-
   jpa:
     hibernate:
       ddl-auto: update
@@ -22,4 +19,5 @@ spring:
     show-sql: true
 
 server:
-  port: 8083
+  port: 8081
+
