@@ -1,7 +1,7 @@
 orders-service-dev:
   params:
-    x: 99
-    y: 99
+    x: 991
+    y: 991
 
 spring:
   application:

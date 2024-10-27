@@ -1,7 +1,7 @@
 orders-service-prod:
   params:
-    x: 00
-    y: 00
+    x: 0011
+    y: 001
 
 
 spring:

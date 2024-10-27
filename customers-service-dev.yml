@@ -1,7 +1,7 @@
 customers-service-dev:
   params:
-    x: 3
-    y: 3
+    x: 31
+    y: 31
 
 spring:
   application:

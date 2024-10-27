@@ -1,7 +1,7 @@
 customers-service-prod:
   params:
-    x: 40
-    y: 40
+    x: 401
+    y: 401
 
 spring:
   application:

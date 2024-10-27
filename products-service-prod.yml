@@ -1,7 +1,7 @@
 products-service-prod:
   params:
-    x: 88
-    y: 88
+    x: 881
+    y: 881
 
 spring:
   application:
