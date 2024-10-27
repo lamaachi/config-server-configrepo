@@ -2,3 +2,11 @@ global:
   params:
     p1: 1001
     p2: 2001
+
+
+#Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
