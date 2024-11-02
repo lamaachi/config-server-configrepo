@@ -3,6 +3,23 @@ global:
     p1: 1001
     p2: 20033
 
+spring:
+  cloud:
+    discovery:
+      enabled: true
+    config:
+      enabled: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:2000/applications
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
 
 
 #Actuator
