@@ -15,11 +15,17 @@ spring:
         url: http://localhost:2000/applications
 
 eureka:
-  client:
-    service-url:
-      defaultZone: ${DISCOVER-SERVER-URL:http://localhost:8761/eureka/}
   instance:
     prefer-ip-address: true
+    hostname: ${spring.application.name}
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka/}
+    register-with-eureka: true
+    fetch-registry: true
+    healthcheck:
+      enabled: true
 
 
 #Actuator
