@@ -7,9 +7,9 @@ spring:
   application:
     name: customers-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/customer
-    username: postgres
-    password: lamaachi
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/customer}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:lamaachi}
   jpa:
     hibernate:
       ddl-auto: update
