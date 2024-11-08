@@ -17,6 +17,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
-
+  boot:
+    admin:
+      client:
+        url: ${ADMIN_SERVER_URL:http://localhost:2000}
 server:
   port: 8085
